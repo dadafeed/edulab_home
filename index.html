@@ -1,0 +1,3861 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <title>EDULAB</title>
+  <!-- custom css -->
+  <link rel="stylesheet" href="./scss/main.css">
+  <!-- jQuery cdn -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- swiper cdn -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <!-- slick cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <!-- custom js -->
+  <script src="./js/script.js" defer></script>
+  <script src="./js/main.js" defer></script>
+</head>
+
+<body>
+  <aside>
+    <div class="top-banner">
+      <span class="blind">신상강의 런칭 특가 이벤트</span>
+      <a href="#none" title="신상강의 런칭특가 이벤트 페이지로 이동합니다." class="top-banner__link">
+        <img src="./src/images/click-wht.svg" class="top-banner__icon" alt="">
+        <p class="top-banner__text">NEW 신상강의 런칭특가로 만나보세요! (~5/30종료)</p>
+      </a>
+      <button class="top-banner__button">
+        <span class="blind">상단 배너 닫기</span>
+        <img src="./src/images/close-button-wht.svg" alt="">
+      </button>
+    </div>
+  </aside>
+
+  <div id="wrap">
+    <div class="content">
+      <header>
+        <div class="only-pc">
+          <div class="header">
+            <div class="main-header header__main-header">
+              <div class="logo main-header__logo">
+                <span class="blind">EDULAB 로고</span>
+                <h1 class="logo__title">
+                  <a href="./index.html" title="에듀랩 홈 화면으로 이동합니다." class="logo__link">
+                    EDULAB
+                  </a>
+                </h1>
+              </div>
+              <div class="search-area main-header__search-area">
+                <span class="blind">검색창</span>
+                <form class="search-form">
+                  <input type="search" placeholder="찾으시는 강의 주제를 입력해주세요." class="search-form__input">
+                  <a href="#none" class="search-form__link">
+                    <img src="./src/images/search.svg" alt="검색 버튼" class="search-form__icon">
+                  </a>
+                </form>
+              </div>
+              <div class="account-area main-header__account-area">
+                <span class="blind">로그인 및 회원가입</span>
+                <div class="sign-links">
+                  <a href="#none" title="로그인 페이지" class="sign-links__link">
+                    <div class="sign-links__login">로그인</div>
+                  </a>
+                  <a href="#none" title="회원가입 페이지" class="sign-links__link">
+                    <div class="sign-links__join">회원가입</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="gnb header__gnb">
+              <div class="category-area gnb__category-area">
+                <div class="category__container">
+                  <button class="category__button">
+                    <span class="blind">전체 카테고리 버튼</span>
+                    <img src="./src/images/hamburger-menu.svg" alt="카테고리 버튼" class="category__icon--navbar">
+                    전체 카테고리
+                  </button>
+                  <ul class="category-item category-container">
+                    <span class="blind">전체 카테고리 목록</span>
+                    <li class="category__list">
+                      <button type="button" class="category__icon category__icon--01">프로그래밍</button>
+                    </li>
+                    <li class="category__list">
+                      <button type="button" class="category__icon category__icon--02">데이터사이언스</button>
+                    </li>
+                    <li class="category__list">
+                      <button type="button" class="category__icon category__icon--03">디자인</button>
+                    </li>
+                    <li class="category__list">
+                      <button type="button" class="category__icon category__icon--04">영상/3D</button>
+                    </li>
+                    <li class="category__list">
+                      <button type="button" class="category__icon category__icon--05">마케팅</button>
+                    </li>
+                    <li class="category__list">
+                      <button type="button" class="category__icon category__icon--06">업무생산성</button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <ul class="sub-category main-gnb__sub-category">
+                <span class="blind">서브 카테고리</span>
+                <li class="sub-category__item">
+                  <a href="#none" title="5월 가입혜택 페이지" class="sub-category__link">5월 가입혜택</a>
+                </li>
+                <li class="sub-category__item">
+                  <a href="#none" title="바로 수강 페이지" class="sub-category__link">바로 수강</a>
+                </li>
+                <li class="sub-category__item">
+                  <a href="#none" title="신규 클래스 페이지" class="sub-category__link">신규 클래스</a>
+                </li>
+                <li class="sub-category__item">
+                  <a href="#none" title="오픈 예정 페이지" class="sub-category__link">오픈 예정</a>
+                </li>
+                <li class="sub-category__item">
+                  <a href="#none" title="이벤트 페이지" class="sub-category__link">이벤트</a>
+                </li>
+              </ul>
+              <ul class="event-category main-gnb__event-category">
+                <span class="blind">이벤트 카테고리</span>
+                <li class="event-category__item">
+                  <a href="#none" title="시그니처 페이지" class="event-category__link">시그니처</a>
+                </li>
+                <li class="event-category__item">
+                  <a href="#none" title="키즈 페이지" class="event-category__link">키즈</a>
+                </li>
+                <li class="event-category__item">
+                  <a href="#none" title="원포인트 클래스 페이지" class="event-category__link">원포인트 클래스</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="only-mobile">
+          <div class="header">
+            <div class="main-header header__main-header">
+              <div class="logo main-header__logo">
+                <span class="blind">EDULAB 로고</span>
+                <h1 class="logo__title">
+                  <a href="./index.html" title="에듀랩 홈 화면" class="logo__link">
+                    EDULAB
+                  </a>
+                </h1>
+              </div>
+              <div class="slide-menu main-header__slide-menu">
+                <a href="#none" title="모바일 검색창 페이지" class="slide-menu__link slide-menu__search"></a>
+                <div class="search-container slide-menu__search-container">
+                  <span class="blind">검색창</span>
+                  <div class="search-panel search-container__search-panel">
+                    <form class="search-form search-panel__search-form">
+                      <img src="./src/images/search.svg" alt="검색" class="search-form__icon">
+                      <input class="search-form__input" type="search" placeholder="찾고 싶은 강의의 주제를 입력해주세요.">
+                    </form>
+                    <div class="search-panel__icon">취소</div>
+                  </div>
+                  <div class="recent-search search-container__recent-search">
+                    <span class="blind">최근 검색 내역</span>
+                    <p class="recent-search__title">최근검색어</p>
+                    <div class="recent-search__empty">최근 검색 내역이 없습니다.</div>
+                  </div>
+                </div>
+                <a href="#none" title="모바일 로그인 및 회원가입 페이지" class="slide-menu__link slide-menu__sign"></a>
+                <div class="sign-container slide-menu__sign-container">
+                  <div class="sign-panel sign-container__sign-panel">
+                    <span class="blind">로그인 및 회원가입</span>
+                    <div class="sign-panel__img"></div>
+                    <div class="sign-panel__text">
+                      <p class="sign-panel__title">로그인 하기 ></p>
+                      <p class="sign-panel__desc">아직 회원이 아니신가요?
+                        <strong class="sign-panel__desc--strong">회원가입</strong>
+                      </p>
+                    </div>
+                    <div class="sign-panel__button">
+                      <button class="sign-panel__icon sign-panel__icon--home">
+                        <span class="blind">홈 화면으로 이동하기</span>
+                      </button>
+                      <button class="sign-panel__icon sign-panel__icon--close">
+                        <span class="blind">모바일 로그인 및 회원가입창 닫기</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="category sign-container__category">
+                    <div class="category__title">전체 카테고리</div>
+                    <ul class="category__list">
+                      <span class="blind">카테고리 목록</span>
+                      <li class="category__item">
+                        <button type="button" class="category__button category__icon--01">프로그래밍</button>
+                      </li>
+                      <li class="category__item">
+                        <button type="button" class="category__button category__icon--02">데이터사이언스</button>
+                      </li>
+                      <li class="category__item">
+                        <button type="button" class="category__button category__icon--03">디자인</button>
+                      </li>
+                      <li class="category__item">
+                        <button type="button" class="category__button category__icon--04">영상/3D</button>
+                      </li>
+                      <li class="category__item">
+                        <button type="button" class="category__button category__icon--05">마케팅</button>
+                      </li>
+                      <li class="category__item">
+                        <button type="button" class="category__button category__icon--06">업무생산성</button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dim header__dim"></div>
+            <nav class="gnb header__gnb">
+              <span class="blind">홈페이지 메뉴</span>
+              <ul class="gnb__item">
+                <li class="gnb__list">
+                  <a href="#none" title="홈 페이지" class="gnb__link">홈</a>
+                </li>
+                <li class="gnb__list">
+                  <a href="#none" title="에어팟 패키지 이벤트 페이지" class="gnb__link">에어팟 패키지</a>
+                </li>
+                <li class="gnb__list">
+                  <a href="#none" title="50% 기간제 특강 페이지" class="gnb__link">50% 기간제특강</a>
+                </li>
+                <li class="gnb__list">
+                  <a href="#none" title="데이터 입문 추천 페이지" class="gnb__link">데이터입문추천</a>
+                </li>
+                <li class="gnb__list">
+                  <a href="#none" title="개발자 강의 페이지" class="gnb__link">개발자강의Best</a>
+                </li>
+                <li class="gnb__list">
+                  <a href="#none" title="맞춤 강의 추천 페이지" class="gnb__link">맞춤강의추천</a>
+                </li>
+                <li class="gnb__list">
+                  <a href="#none" title="The Red 강의 페이지" class="gnb__link">The Red</a>
+                </li>
+                <li class="gnb__list">
+                  <a href="#none" title="국비 지원 강의 페이지" class="gnb__link">국비지원</a>
+                </li>
+                <li class="gnb__list">
+                  <a href="#none" title="기획전/이벤트 페이지" class="gnb__link">기획전/이벤트</a>
+                </li>
+                <li class="gnb__list">
+                  <a href="#none" title="블로그 페이지" class="gnb__link">블로그</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <!-- 메인 슬라이더 -->
+        <section class="main-slider-section">
+          <article>
+            <div class="only-pc">
+              <div class="wrap-swiper-container">
+                <div class="slider-align-center">
+                  <div class="swiper-container">
+                    <div class="left-side">
+                      <div class="swiper mainFirst">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide main-bg-img-01"></div>
+                          <div class="swiper-slide main-bg-img-02"></div>
+                          <div class="swiper-slide main-bg-img-03"></div>
+                          <div class="swiper-slide main-bg-img-04"></div>
+                          <div class="swiper-slide main-bg-img-05"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right-side">
+                      <div class="text-area">
+                        <div class="swiper mainSecond">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <div class="text-caption">
+                                <p class="text-caption-01">NEW 신상 강의 <br>지금이 최저가!</p>
+                                <p class="text-caption-02">얼리버드 파격 할인가로<br>
+                                  신상 강의를 만나보세요! (~5/30)
+                                </p>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="text-caption">
+                                <p class="text-caption-01">국비 지원으로 <br> 교육받고 취업 연계까지</p>
+                                <p class="text-caption-02">내일배움카드로<br> 본인 부담금 2만원부터</p>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="text-caption">
+                                <p class="text-caption-01">47가지의 스택 학습<br>191개의 실습 프로젝트</p>
+                                <p class="text-caption-02">101시간으로 완성하는<br>데이터 사이언스</p>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="text-caption">
+                                <p class="text-caption-01">직장 생활에 필요한<br> 필수 스킬 한번에!</p>
+                                <p class="text-caption-02">업무 서식 3735종 무료 증정</p>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="text-caption">
+                                <p class="text-caption-01">정석부터 최신까지<br>
+                                  80종 알고리즘 완전 정복</p>
+                                <p class="text-caption-02">심화 프로젝트로 실무까지 완벽하게</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="slider-progress-bar">
+                        <div class="direction">
+                          <div class="paging">
+                            <div class="num">
+                              <div class="numbering-area">
+                                <div class="swiper mainThird">
+                                  <div class="swiper-wrapper">
+                                    <div class="swiper-slide num-01">1</div>
+                                    <div class="swiper-slide num-02">2</div>
+                                    <div class="swiper-slide num-03">3</div>
+                                    <div class="swiper-slide num-04">4</div>
+                                    <div class="swiper-slide num-05">5</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <span class="dimension"></span>
+                              <span>5</span>
+                            </div>
+                          </div>
+                          <div class="progress-bar"></div>
+                          <div class="arrow-space">
+                            <div class="btn-prev"></div>
+                            <div class="btn-next"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div class="only-mobile">
+              <div class="upper-main-slide">
+                <div class="slider-wrapper">
+                  <div class="slider main-slider">
+                    <div class="slide-item">
+                      <div class="slide-con">
+                        <div class="slide-txt">
+                          <h2 class="txt-tt">NEW 신상 강의 <br>지금이 최저가!</h2>
+                          <p class="txt-desc">얼리버드 파격 할인가로<br>
+                            신상 강의를 만나보세요! (~5/30)</p>
+                        </div>
+                        <picture class="img-box">
+                          <source srcset="./src/images/main-slider-bg(1280x420).jpg" media="(max-width: 979px)">
+                          <source srcset="./src/images/main-slider-bg(2560x900).jpg" media="(min-width: 980px)">
+                          <img src="./src/images/main-slider-bg(1280x420).jpg"
+                            alt="NEW 신상 강의를 얼리버드 5월 30일까지 파격 할인가로 만나보세요.">
+                        </picture>
+                      </div>
+                    </div>
+                    <div class="slide-item">
+                      <div class="slide-con">
+                        <div class="slide-txt">
+                          <h2 class="txt-tt">국비 지원으로 <br> 교육받고 취업 연계까지</h2>
+                          <p class="txt-desc">내일배움카드로<br> 본인 부담금 2만원부터</p>
+                        </div>
+                        <picture class="img-box">
+                          <source srcset="./src/images/main-slider-bg(1280x420).jpg" media="(max-width: 979px)">
+                          <source srcset="./src/images/main-slider-bg(2560x900).jpg" media="(min-width: 980px)">
+                          <img src="./src/images/main-slider-bg(1280x420).jpg" alt="내일배움카드로 국비 지원 교육받고 취업까지 연계 받으세요.">
+                        </picture>
+                      </div>
+                    </div>
+                    <div class="slide-item">
+                      <div class="slide-con">
+                        <div class="slide-txt">
+                          <h2 class="txt-tt">47가지의 스택 학습<br>
+                            191개의 실습 프로젝트</h2>
+                          <p class="txt-desc">101시간으로 완성하는<br>
+                            데이터 사이언스</p>
+                        </div>
+                        <picture class="img-box">
+                          <source srcset="./src/images/main-slider-bg(1280x420).jpg" media="(max-width: 979px)">
+                          <source srcset="./src/images/main-slider-bg(2560x900).jpg" media="(min-width: 980px)">
+                          <img src="./src/images/main-slider-bg(1280x420).jpg"
+                            alt="47가지 스택 학습과 191개의 실습 프로젝트로 데이터 사이언스를 만나보세요.">
+                        </picture>
+                      </div>
+                    </div>
+                    <div class="slide-item">
+                      <div class="slide-con">
+                        <div class="slide-txt">
+                          <h2 class="txt-tt">직장 생활에 필요한<br> 필수 스킬 한번에!</h2>
+                          <p class="txt-desc">업무 서식 3735종 무료 증정</p>
+                        </div>
+                        <picture class="img-box">
+                          <source srcset="./src/images/main-slider-bg(1280x420).jpg" media="(max-width: 979px)">
+                          <source srcset="./src/images/main-slider-bg(2560x900).jpg" media="(min-width: 980px)">
+                          <img src="./src/images/main-slider-bg(1280x420).jpg"
+                            alt="직장 생활에 필요한 필수 스킬을 무료 업무 서식 3735종과 함께 받아보세요.">
+                        </picture>
+                      </div>
+                    </div>
+                    <div class="slide-item">
+                      <div class="slide-con">
+                        <div class="slide-txt">
+                          <h2 class="txt-tt">정석부터 최신까지<br>
+                            80종 알고리즘 완전 정복</h2>
+                          <p class="txt-desc">심화 프로젝트로 실무까지 완벽하게</p>
+                        </div>
+                        <picture class="img-box">
+                          <source srcset="./src/images/main-slider-bg(1280x420).jpg" media="(max-width: 979px)">
+                          <source srcset="./src/images/main-slider-bg(2560x900).jpg" media="(min-width: 980px)">
+                          <img src="./src/images/main-slider-bg(1280x420).jpg"
+                            alt="알고리즘의 정석부터 최신까지 80종의 심화 프로젝트로 실무까지 완벽하게 배워보세요.">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <!-- 전체 카테고리 메뉴 mobile -->
+        <section class="mo-main-category">
+          <article>
+            <div class="only-mobile">
+              <div class="main-category">
+                <div class="category-main-menu">
+                  <div class="category-menu">
+                    <ul class="category-menu__list">
+                      <li class="category-menu__list-item">
+                        <a href="#none">
+                          <div class="category-menu__icon-01"></div>
+                          <span class="category-menu__text">프로그래밍</span>
+                        </a>
+                      </li>
+                      <li class="category-menu__list-item">
+                        <a href="#none">
+                          <div class="category-menu__icon-02"></div>
+                          <span class="category-menu__text">데이터사이언스</span>
+                        </a>
+                      </li>
+                      <li class="category-menu__list-item">
+                        <a href="#none">
+                          <div class="category-menu__icon-03"></div>
+                          <span class="category-menu__text">디자인</span>
+                        </a>
+                      </li>
+                      <li class="category-menu__list-item">
+                        <a href="#none">
+                          <div class="category-menu__icon-04"></div>
+                          <span class="category-menu__text">영상/3D</span>
+                        </a>
+                      </li>
+                      <li class="category-menu__list-item">
+                        <a href="#none">
+                          <div class="category-menu__icon-05"></div>
+                          <span class="category-menu__text">마케팅</span>
+                        </a>
+                      </li>
+                      <li class="category-menu__list-item">
+                        <a href="#none">
+                          <div class="category-menu__icon-06"></div>
+                          <span class="category-menu__text">업무생산성</span>
+                        </a>
+                      </li>
+                      <li class="category-menu__list-item">
+                        <a href="#none">
+                          <div class="category-menu__icon-07"></div>
+                          <span class="category-menu__text">부업/창업</span>
+                        </a>
+                      </li>
+                      <li class="category-menu__list-item">
+                        <a href="#none">
+                          <div class="category-menu__icon-08"></div>
+                          <span class="category-menu__text">주식재테크</span>
+                        </a>
+                      </li>
+                      <li class="category-menu__list-item">
+                        <a href="#none">
+                          <div class="category-menu__icon-09"></div>
+                          <span class="category-menu__text">부동산/금융</span>
+                        </a>
+                      </li>
+                      <li class="category-menu__list-item">
+                        <a href=#none">
+                          <div class="category-menu__icon-10"></div>
+                          <span class="category-menu__text">글쓰기</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <!-- 이 달의 best 강의 long 01 -->
+        <section class="best-class-of-month">
+          <article>
+            <div class="only-pc">
+              <div class="wrap-banner">
+                <a href="#none">
+                  <div class="banner">
+                    <div class="banner-desc">
+                      <p>5월의 Best 강의</p>
+                      <p>5월 다른 수강생들이 가장 많이 찾은 Best of Best 강의</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="info_box">
+                <div class="twoline-card">
+                  <div class="card-tit-box">Best</div>
+                  <div class="card-tit">
+                    <h2>이번주 베스트셀링 강의</h2>
+                    <a href="#none">
+                      <p>전체 클래스 보기 ></p>
+                    </a>
+                  </div>
+                  <div class="container-wrap-news-cont">
+                    <div class="box-wrap-news-cont">
+                      <ul class="wrap-news-cont">
+                        <li>
+                          <div class="card-container">
+                            <a href="./html/tutor.html">
+                              <em>
+                                <div class="gototutorpage">
+                                  <div class="wrap-click-here-icon">
+                                    <img src="./src/images/th-bg.png" class="click-here-icon-bg" alt="">
+                                    <div class="click-here-box"></div>
+                                  </div>
+                                </div>
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">1차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>글로벌 데이터를 활용한 데이터 리터러시</h3>
+                                <p>데이터를 읽고 활용하는 능력을 키우고싶다면? 글로벌 컨설턴트 출신이 알려주는 데이터 리터러시는 필수!</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest01.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">2차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>C#과 유니티로 배우는 게임 개발</h3>
+                                <p>현직 게임업계 게임 개발자 직강 C# 프로그래밍부터 게임 물리와 수학까지 모두 정복!</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest01.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">3차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>클러스터 구축부터 MSA 환경 활용까지</h3>
+                                <p>데이터 분산 플랫폼의 대세 Kafka를, 국내 최초의 온라인 강의로 배우세요! Kafka 개발사 Confluent의 엔지니어에게 기초~심화 개념</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest01.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">전체오픈</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>TypeScript 함수형 프로그래밍</h3>
+                                <p>국내 최초 실무 맞춤형 함수형 프로그래밍 인강 | 핵심 문법+부수 효과 추상화+명령형 프로그래밍과의 비교 실습에 전체 커리큘럼</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest01.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">전체오픈</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>저예산 마케팅 검색 광고 최적화 SEO</h3>
+                                <p>페이지나 콘텐츠, 상품의 상위노출이 어려워서 걱정이라면 이 강의 하나로 고민을 해결해드립니다. 현직 SEO 전문가</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest01.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">3차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>검색 엔진을 구축하는 Elasticsearch</h3>
+                                <p>국내 검색엔진 1위의 Elasticsearch 마스터 클래스 설치부터 기본 구조, 핵심 기능까지 모두 배우는 강의입니다.</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest01.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">2차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>딥러닝을 활용한 추천시스템 구현</h3>
+                                <p>알고리즘, 머신러닝/딥러닝, 논문리뷰, 데이터 실습, 성능평가까지 현업 프로세스에 필요한 추천시스템의 A to Z</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest01.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">1차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>머신러닝 서비스 구축 실전 MLOps</h3>
+                                <p>국내 유일 MLOps 총정리 강의! 파이프라인 구축부터 배포까지 서비스화 전과정을 알려드립니다!</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div class="only-mobile">
+              <div class="main-lecture">
+                <div class="main-lc-content">
+                  <div class="main-lc-label">
+                    <p>Best</p>
+                  </div>
+                  <div class="main-lc-header">
+                    <p class="main-lc-title">이번 주 베스트셀링 강의</p>
+                    <p class="main-lc-shortcut">전체 강의 보러가기 ></p>
+                  </div>
+                  <div class="main-lc-wrapper">
+                    <div class="container__body">
+                      <ul class="container-card__flex">
+                        <li class="card__container">
+                          <a href="./html/tutor.html">
+                            <div class="wrap-gototutorpage">
+                              <img src="./src/images/th-bg.png" alt="" class="gototutorpage">
+                              <div class="wrap-click-here-icon">
+                                <img src="./src/images/clickhere.svg" alt="" class="click-here-icon">
+                              </div>
+                            </div>
+                            <div class="card__labels">1차오픈</div>
+                            <p class="card__title">글로벌 컨설턴트 출신이 알려주는 글로벌 데이터를 활용한 데이터 리터러시</p>
+                          </a>
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest01.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">2차오픈</div>
+                            <p class="card__title">현직 게임업계 게임 개발자 직강 C# 프로그래밍부터 게임 물리와 수학까지</p>
+                          </a>
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest01.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">3차오픈</div>
+                            <p class="card__title">데이터 분산 플랫폼의 대세 클러스터 구축부터 MSA 환경 활용까지</p>
+                          </a>
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest01.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">전체오픈</div>
+                            <p class="card__title">국내 최초 실무 TypeScript 함수형 프로그래밍</p>
+                          </a>
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest01.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">전체오픈</div>
+                            <p class="card__title">저예산 마케팅 검색 광고 최적화 SEO를 통한 상품 상위노출</p>
+                          </a>
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest01.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">3차오픈</div>
+                            <p class="card__title">국내 검색 엔진 설치부터 구축하는 Elasticsearch 기본 구조, 핵심 기능까지</p>
+                          </a>
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest01.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">2차오픈</div>
+                            <p class="card__title">딥러닝을 활용한 추천시스템 구현한 알고리즘, 머신러닝/딥러닝까지</p>
+                          </a>
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest01.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">1차오픈</div>
+                            <p class="card__title">머신러닝 서비스 구축 실전 MLOps 국내 유일 총정리 강의!</p>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <!-- 이 달의 best 강의 long 02 -->
+        <section class="best-class-of-month">
+          <article>
+            <div class="only-pc">
+              <div class="wrap-banner">
+                <a href="#none">
+                  <div class="banner">
+                    <div class="banner-desc">
+                      <p>NEW! 이번 달의 신규 강의</p>
+                      <p>2022년 갓 런칭한 핫한 신규 강의 런칭 특가 진행 중!</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="info_box">
+                <div class="twoline-card">
+                  <div class="card-tit-box">New</div>
+                  <div class="card-tit">
+                    <h2>오늘이 최저가! NEW 신규 런칭 강의</h2>
+                    <a href="#none">
+                      <p>전체 클래스 보기 ></p>
+                    </a>
+                  </div>
+                  <div class="container-wrap-news-cont">
+                    <div class="box-wrap-news-cont">
+                      <ul class="wrap-news-cont">
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest02.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">1차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>어벤져스 모델러의 Zbrush 모델링</h3>
+                                <p>마블&DC 작품의 모델러에게 배우는 Zbrush 모델링! 인체 14개 세부 부위 이론부터 실습까지, 모델링의 정석을 만나보세요!</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest02.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">2차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>마케팅 데이터 분석과 시각화 실무</h3>
+                                <p>데이터로 일하는 마케터가 되기 위한 필수 스킬 5종과 인사이트를 7일만에 마스터하세요!</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest02.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">3차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>직장인에게 필요한 업무자동화 기술</h3>
+                                <p>직장인이 진짜 필요한 업무자동화 SUPER팩! 귀찮고 반복적인 업무로부터 해방되세요.</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest02.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">전체오픈</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>원리를 이해하는 Spring 프로젝트</h3>
+                                <p>실무 100% 반영! 애플리케이션 제안서를 정의서의 실제 요구 사항을 직접 해결하며 프로젝트를 진행합니다.</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest02.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">전체오픈</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>블리자드 아티스트의 일러스트 빛과 색</h3>
+                                <p>블리자드 미국 본사 시네마틱 팀, 비주얼 디벨롭먼트 아티스트 박예원에게 배우는 게임 일러스트 강의</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest02.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">3차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>구글 어시스턴트 프로덕트 디자인</h3>
+                                <p>5억명 이상이 사용하고 있는 Google Assistant의 시니어 디자인 매니저의 디자인 시장 생존 전략!</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest02.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">2차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>현직 VC가 알려주는 벤처투자실무</h3>
+                                <p>VC업계를 선도할 단 30명에게 주어지는 네트워킹의 기회! 전략 컨설팅부터 스타트업, VC까지 모두 경험한 현직 강사</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest02.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">1차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>쟈니브로스에게 배우는 영상 완성</h3>
+                                <p>국내 최대 규모 프로덕션 쟈니브로스의 리드급 실무진 강성우&조환&성국진이 그 동안 작업하며 쌓아온 경험과 노하우로 영상 완성의 3단계인 편집, 색보정,
+                                  CG효과</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div class="only-mobile">
+              <div class="main-lecture">
+                <div class="main-lc-content">
+                  <div class="main-lc-label">
+                    <p>Hot</p>
+                  </div>
+                  <div class="main-lc-header">
+                    <p class="main-lc-title">이번 주 베스트셀링 강의</p>
+                    <p class="main-lc-shortcut">전체 강의 보러가기 ></p>
+                  </div>
+                  <div class="main-lc-wrapper">
+                    <div class="container__body">
+                      <ul class="container-card__flex">
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest02.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">1차오픈</div>
+                            <p class="card__title">어벤져스 모델러의 Zbrush 모델링 인체 14개 세부 부위 이론부터 실습까지</p>
+                          </a href="#none">
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest02.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">2차오픈</div>
+                            <p class="card__title">마케팅 데이터 분석과 시각화 실무 데이터로 일하는 마케터가 되기 위한 필수 스킬 5종</p>
+                          </a href="#none">
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest02.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">3차오픈</div>
+                            <p class="card__title">반복적인 업무로부터 해방되는 직장인에게 필요한 업무자동화 기술</p>
+                          </a href="#none">
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest02.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">전체오픈</div>
+                            <p class="card__title">애플리케이션 제안서를 정의서의 실제 요구 사항 원리를 이해하는 Spring 프로젝트</p>
+                          </a href="#none">
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest02.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">전체오픈</div>
+                            <p class="card__title">비주얼 디벨롭먼트 아티스트에게 배우는 블리자드 아티스트의 일러스트 빛과 색</p>
+                          </a href="#none">
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest02.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">3차오픈</div>
+                            <p class="card__title">Google Assistant 매니저의 구글 어시스턴트 글로벌 프로덕트 디자인</p>
+                          </a href="#none">
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest02.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">2차오픈</div>
+                            <p class="card__title">VC업계를 선도할 단 30명에게 주어지는 네트워킹의 현직 VC가 알려주는 벤처투자실무</p>
+                          </a href="#none">
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest02.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">1차오픈</div>
+                            <p class="card__title">국내 최대 규모 프로덕션의 리드급 실무진에게 배우는 영상 완성</p>
+                          </a href=#none">
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <!-- 이 달의 best 강의 short 03 -->
+        <section class="best-class-of-month">
+          <article>
+            <div class="only-pc">
+              <div class="wrap-banner">
+                <a href="#none">
+                  <div class="banner">
+                    <div class="banner-desc">
+                      <p>오늘도 야근? 칼퇴 치트키를 배워봐!</p>
+                      <p>#직장인필수스킬 #실무즉시적용</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="info_box">
+                <div class="twoline-card">
+                  <div class="card-tit-box">Hot</div>
+                  <div class="card-tit">
+                    <h2>야근 탈출! 칼퇴를 위한 인강 추천!</h2>
+                    <a href="#none">
+                      <p>전체 클래스 보기 ></p>
+                    </a>
+                  </div>
+                  <div class="container-wrap-news-cont">
+                    <div class="box-wrap-news-cont">
+                      <ul class="wrap-news-cont">
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest03.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">1차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>일잘러 필수 스킬 모음.zip</h3>
+                                <p>직장생활에 필요한 건 이 강의 하나로 끝! 필수스킬&필수역량 모두 담은 직장의 강의 최종판!</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest03.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">2차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>나의 칼퇴치트키 엑셀유치원</h3>
+                                <p>단축키부터 실무 필수 함수 및 응용법으로 여러분의 칼퇴 치트키가 되어줄 강의!</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest03.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">3차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>100억을 움직이는 PPT 디자인 원칙</h3>
+                                <p>PPT 강의 수강자 1등 & 이노션 등 10년 경력의 광고기획자의 PPT 디자인 강의 필드에서 먹히는 PPT 디자인 노하우 모두 공개합니다.</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest03.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">전체오픈</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>YouTube 프로덕트 매니저의 PM 101</h3>
+                                <p>Youtube 본사 Product Manager와 함께 PM/서비스기획자 커리어를 시작해 보세요.</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div class="only-mobile">
+              <div class="main-lecture">
+                <div class="main-lc-content">
+                  <div class="main-lc-label">
+                    <p>Hot</p>
+                  </div>
+                  <div class="main-lc-header">
+                    <p class="main-lc-title">이번 주 베스트셀링 강의</p>
+                    <p class="main-lc-shortcut">전체 강의 보러가기 ></p>
+                  </div>
+                  <div class="main-lc-wrapper">
+                    <div class="container__body">
+                      <ul class="container-card__flex">
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest03.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">1차오픈</div>
+                            <p class="card__title">직장생활에 필요한 역량을 강의 하나로 배우는 일잘러 필수 스킬 모음.zip</p>
+                          </a href="#none">
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest03.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">1차오픈</div>
+                            <p class="card__title">단축키부터 실무 필수 함수 및 응용법으로 여러분의 칼퇴 치트키가 강의</p>
+                          </a href="#none">
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest03.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">1차오픈</div>
+                            <p class="card__title">디자인 강의 필드에서 먹히는 100억을 움직이는 PPT 디자인 원칙</p>
+                          </a href="#none">
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest03.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">1차오픈</div>
+                            <p class="card__title">Business, Data,
+                              Engineering, Design, User Empathy까지 능력치 꽉 찬 YouTube 프로덕트 매니저의 PM 101</p>
+                          </a href="#none">
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <!-- 이 달의 best 강의 short 04 -->
+        <section class="best-class-of-month">
+          <article>
+            <div class="only-pc">
+              <div class="wrap-banner">
+                <a href="#none">
+                  <div class="banner">
+                    <div class="banner-desc">
+                      <p>업계 전문가들의 완성형 1타 강의</p>
+                      <p>쉽게 들을 수 없는 1타 강사들의 노하우가 가득!</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="info_box">
+                <div class="twoline-card">
+                  <div class="card-tit-box">Best</div>
+                  <div class="card-tit">
+                    <h2>업계 전문가들의 완성형 커리큘럼 강의</h2>
+                    <a href="#none">
+                      <p>전체 클래스 보기 ></p>
+                    </a>
+                  </div>
+                  <div class="container-wrap-news-cont">
+                    <div class="box-wrap-news-cont">
+                      <ul class="wrap-news-cont">
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest04.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">1차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>Java와 Spring으로 배우는 백엔드 웹 개발</h3>
+                                <p>Java와 Spring으로 배우는 백엔드 웹 개발 강의입니다! 오픈톡방과 카페에서 완강과 취업까지 도와드립니다.</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest04.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">2차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>JavaScript & TypeScript Essential</h3>
+                                <p>프론트엔드 강의 시리즈 제 1강에서는 클라이언트 프로젝트 외 3종을 활용한 JavaScript와 TypeScript</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest04.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">3차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>만들어보며 이해하는 React & Redux</h3>
+                                <p>React와 Redux를 직접 만들어보며 그 핵심 원리를 파헤칩니다.</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest04.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">전체오픈</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>Spring을 활용한 유연한 백엔드</h3>
+                                <p>스프링러너의 4개 코스 중 첫 번째 강의 입니다. Spring의 확장성 있고 유연한 구조로 변경에 용이한 개발을 해보세요.</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div class="only-mobile">
+              <div class="main-lecture">
+                <div class="main-lc-content">
+                  <div class="main-lc-label">
+                    <p>Hot</p>
+                  </div>
+                  <div class="main-lc-header">
+                    <p class="main-lc-title">이번 주 베스트셀링 강의</p>
+                    <p class="main-lc-shortcut">전체 강의 보러가기 ></p>
+                  </div>
+                  <div class="main-lc-wrapper">
+                    <div class="container__body">
+                      <ul class="container-card__flex">
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest04.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">1차오픈</div>
+                            <p class="card__title">한번에 끝내는 Java/Spring 웹 개발 마스터 초격차 패키지</p>
+                          </a href="#none">
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest04.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">2차오픈</div>
+                            <p class="card__title">클라이언트 프로젝트 외 3종을 활용한 JavaScript와 TypeScript 필수 강의</p>
+                          </a href="#none">
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest04.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">3차오픈</div>
+                            <p class="card__title">핵심 원리를 파헤치고 만들어보며 이해하는 React & Redux 시리즈</p>
+                          </a href="#none">
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest04.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">전체오픈</div>
+                            <p class="card__title">확장성 있고 유연한 구조로 변경에 용이한 개발을 할 수
+                              있는 Spring 백엔드 프로젝트</p>
+                          </a href="#none">
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <!-- 벨트 배너 -->
+        <section class="belt-banner-slider">
+          <article>
+            <div class="only-pc">
+              <div class="wrap-belt-swiper-container">
+                <div class="belt-swiper-container">
+                  <div class="swiper beltBanner">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide belt-01">
+                        <div class="belt-banner">
+                          <div class="belt-text-area">
+                            <div class="belt-banner_tit">
+                              <p>가입하고 강의 무료 체험 하자</p>
+                              <p>40만원 상당 클래스 한 달간 수강!</p>
+                              <button type="button" class="more">더 알아보기</button>
+                            </div>
+                          </div>
+                        </div>
+                        <picture class="belt-img-area-01" alt="">
+                          <span>
+                            <img src="./src/images/letterletter01.png" alt="" class="floating-img-01">
+                          </span>
+                        </picture>
+                      </div>
+                      <div class="swiper-slide belt-02">
+                        <div class="belt-banner">
+                          <div class="belt-text-area">
+                            <div class="belt-banner_tit">
+                              <p>100개 클래스 무제한 수강</p>
+                              <p>지금 핫한 인기 클래스를 한 번에!</p>
+                              <button type="button" class="more">더 알아보기</button>
+                            </div>
+                          </div>
+                        </div>
+                        <picture class="belt-img-area-02">
+                          <span>
+                            <img src="./src/images/boxbox01.png" alt="" class="floating-img-02">
+                          </span>
+                        </picture>
+                      </div>
+                      <div class="swiper-slide belt-03">
+                        <div class="belt-banner">
+                          <div class="belt-text-area">
+                            <div class="belt-banner_tit">
+                              <p>무려 20만원 쿠폰팩을!?</p>
+                              <p>내가 듣고 싶은 강의에 적용되는 무적 쿠폰</p>
+                              <button type="button" class="more">더 알아보기</button>
+                            </div>
+                          </div>
+                        </div>
+                        <picture class="belt-img-area-03">
+                          <span>
+                            <img src="./src/images/salesale01.png" alt="" class="floating-img-03">
+                          </span>
+                        </picture>
+                      </div>
+                      <div class="swiper-slide belt-04">
+                        <div class="belt-banner">
+                          <div class="belt-text-area">
+                            <div class="belt-banner_tit">
+                              <p>사이 좋게 3만원 할인</p>
+                              <p>원하는 클래스, 친구와 함께 시작하세요</p>
+                              <button type="button" class="more">더 알아보기</button>
+                            </div>
+                          </div>
+                        </div>
+                        <picture class="belt-img-area-04">
+                          <span>
+                            <img src="./src/images/megamega01.png" alt="" class="floating-img-04">
+                          </span>
+                        </picture>
+                      </div>
+                      <div class="swiper-slide belt-05">
+                        <div class="belt-banner">
+                          <div class="belt-text-area">
+                            <div class="belt-banner_tit">
+                              <p>핵심만 알려주는 알짜배기 클래스</p>
+                              <p>하나의 영상으로 간결하고 쉽게 시작!</p>
+                              <button type="button" class="more">더 알아보기</button>
+                            </div>
+                          </div>
+                        </div>
+                        <picture class="belt-img-area-05">
+                          <span>
+                            <img src="./src/images/numbernumber01.png" alt="" class="floating-img-05">
+                          </span>
+                        </picture>
+                      </div>
+                    </div>
+                    <div class="belt-arrow-space">
+                      <div class="belt-btn-prev-bg">
+                        <div class="belt-btn-prev"></div>
+                      </div>
+                      <div class="belt-btn-next-bg">
+                        <div class="belt-btn-next"></div>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div class="only-mobile">
+              <div class="belt-banner">
+                <div class="swiper mBeltBanner">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <a href="#none">
+                        <div class="content-container 01">
+                          <div class="text-area">
+                            <div class="text-area__title">가입하고 클래스 무료 체험 하자</div>
+                            <div class="text-area__desc">43만원 상당 클래스 한 달간 수강!</div>
+                          </div>
+                          <div class="image-area">
+                            <picture>
+                              <img src="./src/images/letterletter01.png" alt="" class="floating-img-01">
+                            </picture>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#none">
+                        <div class="content-container 02">
+                          <div class="text-area">
+                            <div class="text-area__title">100개 클래스 무제한 수강</div>
+                            <div class="text-area__desc">지금 핫한 인기 클래스를 한 번에!</div>
+                          </div>
+                          <div class="image-area">
+                            <picture>
+                              <img src="./src/images/boxbox01.png" alt="" class="floating-img-02">
+                            </picture>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#none">
+                        <div class="content-container 03">
+                          <div class="text-area">
+                            <div class="text-area__title">무려 20만원 쿠폰팩을!?</div>
+                            <div class="text-area__desc">내가 듣고 싶은 강의에 적용되는 무적 쿠폰</div>
+                          </div>
+                          <div class="image-area">
+                            <picture>
+                              <img src="./src/images/salesale01.png" alt="" class="floating-img-03">
+                            </picture>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#none">
+                        <div class="content-container 04">
+                          <div class="text-area">
+                            <div class="text-area__title">사이 좋게 3만원 할인</div>
+                            <div class="text-area__desc">원하는 클래스, 친구와 함께 시작하세요</div>
+                          </div>
+                          <div class="image-area">
+                            <picture>
+                              <img src="./src/images/megamega01.png" alt="" class="floating-img-04">
+                            </picture>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#none">
+                        <div class="content-container 05">
+                          <div class="text-area">
+                            <div class="text-area__title">핵심만 알려주는 알짜배기 클래스</div>
+                            <div class="text-area__desc">하나의 영상으로 간결하고 쉽게 시작!</div>
+                          </div>
+                          <div class="image-area">
+                            <picture>
+                              <img src="./src/images/numbernumber01.png" alt="" class="floating-img-05">
+                            </picture>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <!-- 이 달의 best 강의 short 05 -->
+        <section class="best-class-of-month">
+          <article>
+            <div class="only-pc">
+              <div class="wrap-banner">
+                <a href="#none">
+                  <div class="banner">
+                    <div class="banner-desc">
+                      <p>성과를 올리는 마케팅.zip</p>
+                      <p>#마케팅 #콘텐츠부터_퍼포먼스_데이터분석까지</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="info_box">
+                <div class="twoline-card">
+                  <div class="card-tit-box">Best</div>
+                  <div class="card-tit">
+                    <h2>이번주 베스트셀링 강의</h2>
+                    <a href="#none">
+                      <p>전체 클래스 보기 ></p>
+                    </a>
+                  </div>
+                  <div class="container-wrap-news-cont">
+                    <div class="box-wrap-news-cont">
+                      <ul class="wrap-news-cont">
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest05.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">1차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>100억을 움직이는 단 10장의 PPT</h3>
+                                <p>10시간으로 기획부터 디자인, 스피치까지 프레젠테이션 마스터!</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest05.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">2차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>6개월 치 업무 자동화로 하루 만에 끝내기</h3>
+                                <p>6개월 치 업무를 하루 만에 끝낸 '카이스트 공익'이 여러분의 칼퇴를 도와
+                                  드립니다!</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest05.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">3차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>성공적인 UX를 위한 유저 리서치</h3>
+                                <p>카카오페이 유저리서처가 직접 알려주는 유저리서치의 모든 것</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest05.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">전체오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>해외소싱 온라인 커머스 정복</h3>
+                                <p>20년간 해외소싱 업무를 해온 자타공인 국내 최고 전문가 강사님의 해외소싱 방법을 배워보세요.</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div class="only-mobile">
+              <div class="main-lecture">
+                <div class="main-lc-content">
+                  <div class="main-lc-label">
+                    <p>Best</p>
+                  </div>
+                  <div class="main-lc-header">
+                    <p class="main-lc-title">이번 주 베스트셀링 강의</p>
+                    <p class="main-lc-shortcut">전체 강의 보러가기 ></b>
+                  </div>
+                  <div class="main-lc-wrapper">
+                    <div class="container__body">
+                      <ul class="container-card__flex">
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest05.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">1차오픈</div>
+                            <p class="card__title">10시간으로 기획부터 디자인, 스피치까지 프레젠테이션 마스터하는 100억을 움직이는 단 10장의 PPT</p>
+                          </a href="#none">
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest05.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">2차오픈</div>
+                            <p class="card__title">여러 정부기관과 기업체 자문 경험을 토대로 한 6개월 치 업무 자동화로 하루 만에 끝내기</p>
+                          </a href="#none">
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest05.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">3차오픈</div>
+                            <p class="card__title">성공적인 UX를 위한 유저 리서치가 직접 알려주는 유저리서치의 모든 것</p>
+                          </a href="#none">
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest05.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">전체오픈</div>
+                            <p class="card__title">해외소싱 온라인 커머스를 정복한 자타공인 국내 최고 전문가의 해외소싱 방법</p>
+                          </a href="#none">
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <!-- 이 달의 best 강의 short 06 -->
+        <section class="best-class-of-month">
+          <article>
+            <div class="only-pc">
+              <div class="wrap-banner">
+                <a href="#none">
+                  <div class="banner">
+                    <div class="banner-desc">
+                      <p>실무에 바로 쓰는 데이터 분석 강의</p>
+                      <p>#데이터사이언스 #쉽고빠른_현업적용</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="info_box">
+                <div class="twoline-card">
+                  <div class="card-tit-box">Best</div>
+                  <div class="card-tit">
+                    <h2>이번주 베스트셀링 강의</h2>
+                    <a href="#none">
+                      <p>전체 클래스 보기 ></p>
+                    </a>
+                  </div>
+                  <div class="container-wrap-news-cont">
+                    <div class="box-wrap-news-cont">
+                      <ul class="wrap-news-cont">
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest06.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">1차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>딥러닝을 활용한 자연어처리 입문</h3>
+                                <p>자연어 처리의 배경이 되는 딥러닝 기초 이론부터 실전에 꼭 필요한 직관적 개념까지 한데 모아 소개합니다.</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest06.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">2차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>대시보드로 배우는 실무 데이터 시각화</h3>
+                                <p>초보자도 30분 만에 코딩 없이 인사이트까지 얻는 대시보드, 이 강의 들으면 나도 가능!</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest06.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">3차오픈</li>
+                                  <li class="ico">진행중</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>클라우드를 활용한 파이프라인 구축</h3>
+                                <p>빅데이터와 클라우드에 대한 이해부터 데이터 수집, 저장, 처리, 분석, 시각화까지 데이터 분석으로 구축해보세요.</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="card-container">
+                            <a href="#none">
+                              <em>
+                                <img src="./src/images/th-bestbest06.png" alt="">
+                              </em>
+                              <div class="card-label">
+                                <ul>
+                                  <li class="ico">전체오픈</li>
+                                </ul>
+                              </div>
+                              <div>
+                                <h3>실시간 빅데이터 처리 Spark & Flink</h3>
+                                <p>국내 유일 실시간 빅데이터 처리 총정리 강의! 4가지 툴로 파이프라인 전 과정과 실제 데이터 실습까지 제공합니다!</p>
+                              </div>
+                            </a>
+                            <div class="click-here-heart-part">
+                              관심강좌등록
+                              <div class="heart-icon-container">
+                                <button class="empty-heart"></button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div class="only-mobile">
+              <div class="main-lecture">
+                <div class="main-lc-content">
+                  <div class="main-lc-label">
+                    <p>Hot</p>
+                  </div>
+                  <div class="main-lc-header">
+                    <p class="main-lc-title">이번 주 베스트셀링 강의</p>
+                    <p class="main-lc-shortcut">전체 강의 보러가기 ></p>
+                  </div>
+                  <div class="main-lc-wrapper">
+                    <div class="container__body">
+                      <ul class="container-card__flex">
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest06.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">1차오픈</div>
+                            <p class="card__title">자연어 처리의 배경이 되는 딥러닝 기초 이론부터 실전에 꼭 필요한 직관적 개념까지</p>
+                          </a href="#none">
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest06.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">2차오픈</div>
+                            <p class="card__title">초보자도 30분 만에 코딩 없이 인사이트까지 얻는 대시보드 데이터 시각화</p>
+                          </a href="#none">
+                        </li>
+                        <li class="card__container">
+                          <a href="#none">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest06.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">3차오픈</div>
+                            <p class="card__title">빅데이터와 클라우드에 대한 이해부터 데이터 수집, 저장, 처리, 분석, 시각화까지</p>
+                          </a href="#none">
+                        </li>
+                        <li class="card__container">
+                          <a href="#">
+                            <div class="card__image-wrapper">
+                              <img src="./src/images/th-bestbest06.png" alt="" class="card__image">
+                            </div>
+                            <div class="card__labels">전체오픈</div>
+                            <p class="card__title">실시간 빅데이터 처리 Spark & Flink 4가지 툴로 파이프라인 전 과정과 실제 데이터 실습까지</p>
+                          </a href="#none">
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <!-- 진행중인 이벤트 -->
+        <section class="ongoing-events-section">
+          <article>
+            <div class="only-pc">
+              <div class="ongoing-event">
+                <div class="card-one">
+                  <div class="card-tit-box">Event</div>
+                  <div class="card-tit">
+                    <h2>진행중인 이벤트</h2>
+                  </div>
+                  <div class="wrap-event-grid-container">
+                    <div class="event-grid-container">
+                      <div class="event-grid-items grid-img-01">
+                        <div class="grid-img-left-text-area">
+                          <p class="grid-img-left-tit">수강후기 이벤트</p>
+                          <div class="grid-img-left-cap">
+                            <p>수강후기 남기면<br> 선물이 펑펑!</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="event-grid-items grid-img-02">
+                        <div class="grid-img-right-text-area">
+                          <p class="grid-img-right-tit">NEW YEAR 이벤트</p>
+                          <div class="grid-img-right-cap">
+                            <p>호랑이띠 친구와<br> 함께하면 할인!</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="event-grid-items grid-img-03">
+                        <div class="grid-img-right-text-area">
+                          <p class="grid-img-right-tit">신규강의 이벤트</p>
+                          <div class="grid-img-right-cap">
+                            <p>얼리버드 강의<br> 지금 사전예약중!</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="event-grid-items grid-img-04">
+                        <div class="grid-img-left-text-area">
+                          <p class="grid-img-left-tit">7일한정 이벤트</p>
+                          <div class="grid-img-left-cap">
+                            <p>지금 구매하면<br> 강의가 반값!</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="event-grid-items grid-img-05">
+                        <div class="grid-img-left-text-area">
+                          <p class="grid-img-left-tit">감사 이벤트</p>
+                          <div class="grid-img-left-cap">
+                            <p>업계 1위 달성 기념<br> 감사 이벤트!</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="event-grid-items grid-img-06">
+                        <div class="grid-img-right-text-area">
+                          <p class="grid-img-right-tit">취업연계 이벤트</p>
+                          <div class="grid-img-right-cap">
+                            <p>국비 교육과 함께<br> 취업하세요!</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div class="only-mobile">
+              <div class="ongoing-events">
+                <div class="oe-content">
+                  <div class="oe-label">
+                    <p>Event</p>
+                  </div>
+                  <div class="events-header">
+                    <div class="events-title">진행중인 이벤트</div>
+                  </div>
+                  <div class="events-wrapper">
+                    <div class="events__container-row">
+                      <a href="#none" class="events__link">
+                        <div class="events-image__box">
+                          <img src="./src/images/eventbanner01.png" alt="" class="events__image">
+                          <div class="img-text-area__left">
+                            <p class="img-tit">수강후기 이벤트</p>
+                            <div class="img-cap">
+                              <p>수강후기 남기면<br> 선물이 펑펑!</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="#none" class="events__link">
+                        <div class="events-image__box">
+                          <img src="./src/images/eventbanner09_newnewnew.png" alt="" class="events__image">
+                          <div class="img-text-area__right">
+                            <p class="img-tit">NEW YEAR 이벤트</p>
+                            <div class="img-cap">
+                              <p>호랑이띠 친구와<br> 함께하면 할인!</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="#none" class="events__link">
+                        <div class="events-image__box">
+                          <img src="./src/images/eventbanner21_new.png" alt="" class="events__image">
+                          <div class="img-text-area__left">
+                            <p class="img-tit">신규강의 이벤트</p>
+                            <div class="img-cap">
+                              <p>얼리버드 강의<br> 지금 사전예약중!</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="#none" class="events__link">
+                        <div class="events-image__box">
+                          <img src="./src/images/eventbanner02.png" alt="" class="events__image">
+                          <div class="img-text-area__right">
+                            <p class="img-tit">7일한정 이벤트</p>
+                            <div class="img-cap">
+                              <p>지금 구매하면<br> 강의가 반값!</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="#none" class="events__link">
+                        <div class="events-image__box">
+                          <img src="./src/images/eventbanner15_new.png" alt="" class="events__image">
+                          <div class="img-text-area__left">
+                            <p class="img-tit">감사 이벤트</p>
+                            <div class="img-cap">
+                              <p>업계 1위 달성 기념<br> 감사 이벤트!</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="#none" class="events__link">
+                        <div class="events-image__box">
+                          <img src="./src/images/eventbanner20_new.png" alt="" class="events__image">
+                          <div class="img-text-area__right">
+                            <p class="img-tit">취업연계 이벤트</p>
+                            <div class="img-cap">
+                              <p>국비 교육과 함께<br> 취업하세요!</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <!-- 전체 카테고리 메뉴 PC -->
+        <section class="pc-whole-category">
+          <article>
+            <div class="only-pc">
+              <div class="class-category">
+                <div class="wrap-class-category">
+                  <div class="class-category-tit">
+                    <h2><span>✨카테고리</span>에 따라 강의를 찾아보세요.</h2>
+                  </div>
+                  <div class="class-category-container">
+                    <div class="wrap-class-category-container">
+                      <div class="class-cate-icon">
+                        <img src="./src/images/programming(2).svg" alt="" class="icon-item">
+                        <p>프로그래밍</p>
+                      </div>
+                      <div class="class-cate-icon">
+                        <img src="./src/images/data-science.svg" alt="" class="icon-item">
+                        <p>데이터사이언스</p>
+                      </div>
+                      <div class="class-cate-icon">
+                        <img src="./src/images/design.svg" alt="" class="icon-item">
+                        <p>디자인</p>
+                      </div>
+                      <div class="class-cate-icon">
+                        <img src="./src/images/video(2).svg" alt="" class="icon-item">
+                        <p>영상/3D</p>
+                      </div>
+                      <div class="class-cate-icon">
+                        <img src="./src/images/marketing.svg" alt="" class="icon-item">
+                        <p>마케팅</p>
+                      </div>
+                      <div class="class-cate-icon">
+                        <img src="./src/images/work-convinience.svg" alt="" class="icon-item">
+                        <p>업무생산성</p>
+                      </div>
+                      <div class="class-cate-icon">
+                        <img src="./src/images/money(4).svg" alt="" class="icon-item">
+                        <p>부업/창업</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <!-- 카드형 캐러셀 -->
+        <section class="subjects-card-carousel">
+          <article>
+            <div class="only-pc">
+              <!-- 카드형 캐러셀 01 -->
+              <div class="subjects-info_box">
+                <div class="subjects-card-one">
+                  <div class="subjects-card-tit">
+                    <h2>프로그래밍</h2>
+                    <a href="#none">
+                      <p>전체 클래스 보기 ></p>
+                    </a>
+                  </div>
+                  <div class="wrap-swiper-container">
+                    <div class="swiper-container subFirst">
+                      <div class="swiper-wrapper">
+                        <div class="swiper subFirst">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-programming.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">전체오픈</li>
+                                          <li class="ico">120만+</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>누적 다운로드 120만+ 1인 개발자와 함께하는 앱 개발 입문</h3>
+                                        <p>실습으로 배워서 바로 업무에 적용하는 국내 최초 Istio 마스터 클래스 DevOps/SRE 엔지니어 리드와 함께 45개 실습을 진행하며
+                                          가장 최신 버전의
+                                          Istio를 손에 익을 때까지 배워보세요.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-programming.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">3차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>Android 앱 개발의 정석 with Kotlin 올인원 패키지 Online</h3>
+                                        <p>앱 개발 기초 지식부터 배포 후 유지·보수까지 한 번에 끝내는 Android 앱 개발 입문 강의 | 입문자부터 주니어 개발자까지</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-programming.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">2차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>효과적인 비동기처리를 위한 Kotlin Coroutine & Flow</h3>
+                                        <p>국내 은행 1위 앱 카카오뱅크에서 Kotlin Coroutine 리팩토링을 진행한 김용욱에게 Coroutine의 개념부터 내부구조까지
+                                          배워보세요.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-programming.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">1차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>C#으로 하는 인공지능 게임제작 강화 학습 알고리즘</h3>
+                                        <p>이 강의는 C#으로 강화학습 알고리즘이 적용된 인공지능 보드게임을 제작하는 실습수업으로 강화학습 알고리즘의 기본을 배워보세요.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-programming.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">전체오픈</li>
+                                          <li class="ico">120만+</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>객체지향 설계를 위한 필수 디자인패턴 with JAVA</h3>
+                                        <p>디자인 패턴, 애매하게 배우는 게 제일 위험하다! 자바 입문서 베스트셀러 저자이자 실무 20년차에게 배워보세요.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-programming.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">1차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>MSA 환경의 효율적인 DevOps를 위한 Istio 마스터 클래스</h3>
+                                        <p>Flutter와 Swift로 만든 앱 10종을 제작하는 것에 그치는 것이 아니라 출시까지 해보며 앱을 운영할 수 있는 경험을 선사하는
+                                          강의입니다.
+                                        </p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-programming.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">2차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>K-Digital Credit : 프로그래밍 첫걸음 시작하기</h3>
+                                        <p>본 과정은 프로그래밍 초급 과정으로 프론트엔드를 본격적으로 학습하기 전, 프로그래밍을 배워야 하는 이유부터 개발자들이 생각하고 소통하는
+                                          방식</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-programming.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">3차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>K-Digital Credit : 나만의 iOS 앱 개발 입문 과정</h3>
+                                        <p>본 과정은 프로그래밍 중급 과정으로 iOS 앱 개발자는 무엇을 하는 직무 인지에 대해 개념을 정리하고
+                                          iOS 앱 개발 전용 언어 Swift와 iOS 앱 개발 툴인 Xcode에 대해 학습한다.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="sub-arrow-space">
+                          <div class="subFirst-btn-next"></div>
+                          <div class="subFirst-btn-prev"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div class="wrap-swiper-container">
+                </div>
+              </div>
+
+              <!-- 카드형 캐러셀 02 -->
+              <div class="subjects-info_box">
+                <div class="subjects-card-one">
+                  <div class="subjects-card-tit">
+                    <h2>데이터사이언스</h2>
+                    <a href="#none">
+                      <p>전체 클래스 보기 ></p>
+                    </a>
+                  </div>
+                  <div class="wrap-swiper-container">
+                    <div class="swiper-container subSecond">
+                      <div class="swiper-wrapper">
+                        <div class="swiper subSecond">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-datascience.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">전체오픈</li>
+                                          <li class="ico">120만+</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>Apache Spark을 이용한 빅데이터 분석 및 추천 시스템 구현 프로젝트</h3>
+                                        <p>Spark의 핵심인 Spark Core뿐만 아니라 현업에서 활용도가 높은 라이브러리까지!
+                                          ‘추천 시스템 구현 프로젝트’와 함께 체계적으로 학습할 2022년 상반기 유일한 기회!</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-datascience.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">3차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>직장인을 위한 파이썬 데이터분석 올인원 패키지 Online</h3>
+                                        <p>왕초보도 진짜 데이터 분석을 하는 마법의 커리큘럼으로 파이썬 기초부터 다양한 예제를 활용한 분석까지 모두 배울 수 있는 온라인 과정입니다.
+                                        </p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-datascience.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">2차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>K-Digital Training : AI 기반 데이터 사이언티스트 양성 과정</h3>
+                                        <p>AI 기반 데이터사이언티스트 주니어 양성 목표의 풀타임 장기교육 - 파이썬 코딩, 머신러닝/딥러닝 등 학습 - 데이터 설계, 모델링,
+                                          전처리 등 데이터
+                                          분석
+                                          프로젝트를 통한 AI 전문가 양성합니다.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-datascience.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">1차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>K-Digital Credit : 빅데이터 분석 첫걸음 시작하기</h3>
+                                        <p>본 과정은 데이터 사이언스 초급 과정으로 데이터 사이언스가 무엇인지, 빅데이터가 무엇인지에 대해 기본 용어와 프로세스를 이해하는 것에 중
+                                          점을 둔다.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-datascience.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">전체오픈</li>
+                                          <li class="ico">120만+</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>파이썬을 활용한 이커머스 데이터 분석 올인원 패키지 Online</h3>
+                                        <p>>이커머스 데이터를 활용해 데이터 분석을 배우고, 실제 서비스에 적용하여 매출을 높이는 의사결정을 할 수 있습니다.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-datascience.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">1차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>프로젝트와 함께 배우는 R 데이터 분석 입문 과정</h3>
+                                        <p>관련 이론부터 인사이트를 도출해내는 방법까지 입문자에게 필요한 전 과정을 프로젝트로 실습하며 배울 수 있는 강의입니다.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-datascience.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">2차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>Megabyte School : 비즈니스 빅데이터 분석가 양성 과정</h3>
+                                        <p>비즈니스 데이터 분석가(BA) 양성 목표의 풀타임 장기 과정 - 그로스해킹, AI 이해, UX/UI 등 학습 - 파이썬, SQL 등 활용
+                                          분석 프로젝트를
+                                          통한 실무 능력 배양합니다.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-datascience.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">3차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>커리어 치트키 : 우버처럼 하는 머신러닝 의사결정</h3>
+                                        <p>이 강의는 통계학 강의 입니다. 우리가 학교에서 배운 통계학을 기계적으로 현업에 적용하면 대부분 잘 듣지 않습니다.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="sub-arrow-space">
+                          <div class="subSecond-btn-next"></div>
+                          <div class="subSecond-btn-prev"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div class="wrap-swiper-container">
+                </div>
+              </div>
+
+              <!-- 카드형 캐러셀 03 -->
+              <div class="subjects-info_box">
+                <div class="subjects-card-one">
+                  <div class="subjects-card-tit">
+                    <h2>디자인</h2>
+                    <a href="#none">
+                      <p>전체 클래스 보기 ></p>
+                    </a>
+                  </div>
+                  <div class="wrap-swiper-container">
+                    <div class="swiper-container subThird">
+                      <div class="swiper-wrapper">
+                        <div class="swiper subThird">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-design.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">전체오픈</li>
+                                          <li class="ico">120만+</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>글로벌 1위 Salesforce 디자인 디렉터의 B2B SaaS 프로덕트 디자인</h3>
+                                        <p>실리콘밸리 세일즈포스 디자인디렉터가 강의하는 디자인 프로젝트를 리드해야 할 때 해야하는 프로세스 및 계획 설계에 관해 배워보세요.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-design.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">3차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>타이포그래피와 편집디자인 by 인디자인(Indesign)</h3>
+                                        <p>누구나 쉽게 배울 수 있는 타이포그래피 이론과 인디자인으로 실습하는 편집디자인</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-design.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">2차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>논리적인 디자인을 위한 Data Driven UX 올인원 패키지 Online.</h3>
+                                        <p>데이터가 두렵고 낯선 디자이너를 위한 데이터 기반 UX 디자인 강의! 국내 유일 Data Driven UX 개론 강의를 온라인으로 지금
+                                          만나보세요.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-design.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">1차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>100개의 디자인으로 배우는 UX/UI 올인원 패키지</h3>
+                                        <p>클론디자인 프로젝트로 실제 앱/웹을 만들어보며 UX/UI 디자이너의 실무를 배우는 강의입니다.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-design.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">전체오픈</li>
+                                          <li class="ico">120만+</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>성공적인 UX를 위한 유저 리서치 by 카카오페이 리서처 올인원 패키지</h3>
+                                        <p>카카오페이 유저리서처가 직접 알려주는 유저리서치의 모든 것을 배워보세요.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-design.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">1차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>구글 Material Design 시스템을 활용한 Youtube Design</h3>
+                                        <p>현직 구글 프로덕트 디자이너와 함께 앱 디자인 프로젝트를 통해 논리적인 디자인을 만들기 위한 디자인 프로세스를 학습합니다.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-design.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">2차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>디자인의 차이를 만드는 서체 활용법 by 폰트 디자이너</h3>
+                                        <p>서체 하나로 달라지는 디자인 퀄리티! 국내최대 폰트회사 폰트 디자이너에게 직접 배웁니다. 디자이너에게 꼭 필요한 서체 선택, 변형, 활용
+                                          강의!</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-design.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">3차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>UX Explorer UXUI Design Conference 2022</h3>
+                                        <p>각 분야에서 최고의 커리어를 자랑하는 국내외 디자이너들이 가장 최신의 케이스와 경험, 미래에 대한 인사이트를 공유합니다.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="sub-arrow-space">
+                          <div class="subThird-btn-next"></div>
+                          <div class="subThird-btn-prev"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div class="wrap-swiper-container">
+                </div>
+              </div>
+
+              <!-- 카드형 캐러셀 04 -->
+              <div class="subjects-info_box">
+                <div class="subjects-card-one">
+                  <div class="subjects-card-tit">
+                    <h2>영상/3D</h2>
+                    <a href="#none">
+                      <p>전체 클래스 보기 ></p>
+                    </a>
+                  </div>
+                  <div class="wrap-swiper-container">
+                    <div class="swiper-container subFourth">
+                      <div class="swiper-wrapper">
+                        <div class="swiper subFourth">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-video.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">전체오픈</li>
+                                          <li class="ico">120만+</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>누적 조회수 12억! 우감독의 재미있는 영상 편집 올인원 패키지</h3>
+                                        <p>140만 채널 감독과 함께, 재미있게 배우는 프리미어 프로 & 애프터이펙트를 배워보세요!</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-video.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">1차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>쟈니브로스에게 배우는 영상 완성의 3단계 : 편집, 색보정, CG효과</h3>
+                                        <p>국내 최대 규모 프로덕션의 리드급 실무진이
+                                          그 동안 작업하며 쌓아온 경험과 노하우로 영상 완성의 3단계인 편집, 색보정, CG효과의 실무 스킬입니다.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-video.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">2차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>옥테인으로 만드는 뉴디멘션: Vectron 프랙탈 아트웍</h3>
+                                        <p>시네마포디 옥테인 렌더러의 소프트웨어 모듈인 Vectron을 다루는 강의입니다.
+                                          Vectron을 통하여 복잡하고 추상적인 프랙탈 Artwork를 구현할 수 있습니다.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-video.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">3차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>Realistic Character 제작으로 시작하는 게임 캐릭터 모델링</h3>
+                                        <p>국내 대표 게임사, 3D 아티스트가 알려주는 게임 속
+                                          리얼리티 캐릭터 모델링의 모든 것! 입문자도 가볍게 시작할 수 있는 Realistic Character 모델입니다.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-video.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">전체오픈</li>
+                                          <li class="ico">120만+</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>탄탄한 Animatics에 기반한 Cinema4D 포트폴리오 퀀텀점프</h3>
+                                        <p>C4D, 옥테인, 애프터이펙트 핵심 툴로 배우는 모션그래픽 필수 클래스입니다.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-video.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">3차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>모션그래픽 뉴패러다임 닷밀 미디어아트 그래픽 클래스</h3>
+                                        <p>C4D, 옥테인, 애프터이펙트 3툴과 7가지 플러그인으로 배우는 모션그래픽 뉴패러다임, 미디어아트 그래픽 클래스입니다.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-video.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">2차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>FX 아티스트의 리얼리스틱 시뮬레이션 후디니 입문<< /h3>
+                                            <p>실사 FX의 주요 시뮬레이션을 모두 담은 후디니 입문 강의 특수효과에 특화된 프로그램 후디니를 활용하여 다양한 시뮬레이션과 함께
+                                              구성했습니다.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-video.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">1차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>애프터이펙트 플러그인을 활용한 모션그래픽 아트워크</h3>
+                                        <p>7년차 모션그래픽 디자이너 탄진이 35가지 실습예제로 알려주는 애프터이펙트 플러그인 완전정복!
+                                          기초 모션부터 Trapcode, Plexus, Element 3D까지 전부 알려드립니다.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="sub-arrow-space">
+                          <div class="subFourth-btn-next"></div>
+                          <div class="subFourth-btn-prev"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div class="wrap-swiper-container">
+                </div>
+              </div>
+
+              <!-- 카드형 캐러셀 05 -->
+              <div class="subjects-info_box">
+                <div class="subjects-card-one">
+                  <div class="subjects-card-tit">
+                    <h2>마케팅</h2>
+                    <a href="#none">
+                      <p>전체 클래스 보기 ></p>
+                    </a>
+                  </div>
+                  <div class="wrap-swiper-container">
+                    <div class="swiper-container subFifth">
+                      <div class="swiper-wrapper">
+                        <div class="swiper subFifth">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-marketing.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">전체오픈</li>
+                                          <li class="ico">120만+</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>저예산 마케팅을 위한 검색 광고 최적화 - SEO/SEM 마스터</h3>
+                                        <p>>페이지나 콘텐츠, 상품의 상위노출이 어려워서 걱정이라면 이 강의 하나로 고민을 해결해드립니다.</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-marketing.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">1차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>성과 데이터를 활용한 퍼포먼스 마케팅 & 데이터 완전 정복</h3>
+                                        <p>성과 데이터를 제대로 읽고, 활용할 수 있는 퍼포먼스 마케터로 거듭날 수 있습니다. 같은 툴과 데이터를 놓고, 이렇게 많은 해석과 활용이
+                                          가능하단 것을
+                                          이
+                                          강의에서 직접 확인하세요!</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-marketing.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">2차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>GA4 탑재, 구글 애널리틱스 끝장내기 올인원 패키지</h3>
+                                        <p>새로 업데이트된 구글 애널리틱스4부터, 5가지 구글 마케팅 플랫폼을 이용한 똑똑한 데이터 마케팅을 배워보세요!</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-marketing.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">3차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>전환율을 높이는 디지털 마케팅 그로스편</h3>
+                                        <p>전환과 리텐션을 높여 매출에 직접적 영향을 주는 마케팅을 하고 싶은 마케터가 되고 싶다면 주목하세요!</p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-marketing.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">전체오픈</li>
+                                          <li class="ico">120만+</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>리서치 프로세스로 배우는 무조건 팔리는 SNS콘텐츠</h3>
+                                        <p>리서치 전문기업 오픈서베이의 실무자에게 배우는 콘텐츠 제작 툴, 광고 집행 및 성과 분석 플랫폼입니다.
+                                        </p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-marketing.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">3차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>인스타를 성장시킨 30명의 성공방정식 완전 정복</h3>
+                                        <p>팔로워들의 사랑을 받는 인스타그램 계정 어떻게 만들어야 할까요?
+                                          팔로워 합계 200만 이상! 30명의 인스타그래머에게 듣는 30가지입니다.
+                                        </p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-marketing.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">2차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>오픈서베이와 함께하는 소비자 리서치와 보고서 작성</h3>
+                                        <p>리서치 전문기업 오픈서베이의 실무자에게 배우는 콘텐츠 제작 툴, 광고 집행 및 성과 분석 플랫폼입니다.
+                                        </p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="subjects-box-wrap-news-cont">
+                                <ul class="subjects-wrap-news-cont">
+                                  <li>
+                                    <a href="#none">
+                                      <em>
+                                        <img src="./src/images/wh-marketing.png" alt="">
+                                      </em>
+                                      <div class="card-labels">
+                                        <ul>
+                                          <li class="ico">1차오픈</li>
+                                          <li class="ico">진행중</li>
+                                        </ul>
+                                      </div>
+                                      <div class="card-desc">
+                                        <h3>해외소싱으로 온라인 커머스 정복하기 올인원 패키지</h3>
+                                        <p>20년간 해외소싱 업무를 해온 자타공인 국내 최고 전문가 이종구 강사님의 해외소싱 상품 기획부터 창업전략까지 선사하는
+                                          강의입니다.
+                                        </p>
+                                      </div>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="sub-arrow-space">
+                          <div class="subFifth-btn-next"></div>
+                          <div class="subFifth-btn-prev"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div class="wrap-swiper-container">
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div class="only-mobile">
+              <!-- 카드형 캐러셀 -->
+              <div class="whole-lecture">
+                <div class="lecture-slider">
+                  <div class="lecture-header">
+                    <p class="lc-title">프로그래밍</p>
+                    <a href="#none" class="lc-shortcut">전체보기 ></a>
+                  </div>
+                  <div class="swiper lecture-carousel">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide slide">
+                        <div class="card__container">
+                          <img src="./src/images/wh-programming.png" alt="" class="card__image">
+                          <div class="card__labels">전체오픈</div>
+                          <div class="card__title">누적 다운로드 120만+ 1인 개발자와 함께하는 앱 개발 입문</div>
+                        </div>
+                        <div class="card__container">
+                          <img src="./src/images/wh-programming.png" alt="" class="card__image">
+                          <div class="card__labels">1차오픈</div>
+                          <div class="card__title">Android 앱 개발의 정석 with Kotlin 올인원 패키지 Online</div>
+                        </div>
+                        <div class="card__container">
+                          <img src="./src/images/wh-programming.png" alt="" class="card__image">
+                          <div class="card__labels">2차오픈</div>
+                          <div class="card__title">효과적인 비동기처리를 위한 Kotlin Coroutine & Flow 리팩토링을 진행한 Coroutine의 개념부터
+                            내부구조까지</div>
+                        </div>
+                        <div class="card__container">
+                          <img src="./src/images/wh-programming.png" alt="" class="card__image">
+                          <div class="card__labels">3차오픈</div>
+                          <div class="card__title">C#으로 강화학습 알고리즘이 적용된 인공지능 보드게임을 제작하는 실습수업 강화학습 알고리즘</div>
+                        </div>
+                        <div class="card__container">
+                          <img src="./src/images/wh-programming.png" alt="" class="card__image">
+                          <div class="card__labels">전체오픈</div>
+                          <div class="card__title">자바 입문서 베스트셀러 저자이자 실무 20년차가 알려주는 객체지향 설계를 위한 필수 디자인패턴 with JAVA</div>
+                        </div>
+                        <div class="card__container">
+                          <img src="./src/images/wh-programming.png" alt="" class="card__image">
+                          <div class="card__labels">3차오픈</div>
+                          <div class="card__title">실습으로 배워서 바로 업무에 적용하는 MSA 환경의 효율적인 DevOps를 위한 Istio 마스터 클래스</div>
+                        </div>
+                        <div class="card__container">
+                          <img src="./src/images/wh-programming.png" alt="" class="card__image">
+                          <div class="card__labels">2차오픈</div>
+                          <div class="card__title">K-Digital Credit : 프로그래밍을 배워야 하는 이유부터 개발자들이 생각하고 소통하는 첫걸음 시작하기</div>
+                        </div>
+                        <div class="card__container">
+                          <img src="./src/images/wh-programming.png" alt="" class="card__image">
+                          <div class="card__labels">1차오픈</div>
+                          <div class="card__title">K-Digital Credit : iOS 앱 개발 전용 언어 Swift와 iOS 앱 개발 툴인 Xcode에 대한 입문 과정
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="lecture-slider">
+                    <div class="lecture-header">
+                      <p class="lc-title">데이터사이언스</p>
+                      <a href="#none" class="lc-shortcut">전체보기 ></a>
+                    </div>
+                    <div class="swiper lecture-carousel">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide slide">
+                          <div class="card__container">
+                            <img src="./src/images/wh-datascience.png" alt="" class="card__image">
+                            <div class="card__labels">전체오픈</div>
+                            <div class="card__title">Apache Spark을 이용한 빅데이터 분석 및 추천 시스템 구현 프로젝트 Spark의 핵심인 Spark Core뿐만
+                              아니라 현업에서 활용도가 높은 라이브러리까지</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-datascience.png" alt="" class="card__image">
+                            <div class="card__labels">1차오픈</div>
+                            <div class="card__title">다양한 예제를 활용한 분석까지 모두 배울 수 있는 직장인을 위한 파이썬 데이터분석 올인원 패키지</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-datascience.png" alt="" class="card__image">
+                            <div class="card__labels">2차오픈</div>
+                            <div class="card__title">K-Digital Training : AI 기반 데이터 사이언티스트 주니어 양성 목표의 풀타임 장기교육 양성 과정
+                            </div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-datascience.png" alt="" class="card__image">
+                            <div class="card__labels">3차오픈</div>
+                            <div class="card__title">K-Digital Credit : 빅데이터가 무엇인지에 대해 기본 용어와 프로세스를 이해하는 빅데이터 분석 첫걸음
+                              시작하기</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-datascience.png" alt="" class="card__image">
+                            <div class="card__labels">전체오픈</div>
+                            <div class="card__title">이커머스 데이터를 활용해 데이터 분석을 배우고, 실제 서비스에 적용하여 매출을 높이는 파이썬을 활용한 이커머스 데이터
+                              분석 올인원 패키지</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-datascience.png" alt="" class="card__image">
+                            <div class="card__labels">3차오픈</div>
+                            <div class="card__title">관련 이론부터 인사이트를 도출해내는 방법까지 프로젝트와 함께 배우는 R 데이터 분석 입문 과정</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-datascience.png" alt="" class="card__image">
+                            <div class="card__labels">2차오픈</div>
+                            <div class="card__title">Megabyte School : AI 이해, UX/UI 등 학습 - 파이썬, SQL 등 활용 분석 프로젝트를
+                              통한 비즈니스 빅데이터 분석가 양성 과정</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-datascience.png" alt="" class="card__image">
+                            <div class="card__labels">1차오픈</div>
+                            <div class="card__title">커리어 치트키 : 통계학을 기계적으로 현업에 적용하며 우버처럼 하는 머신러닝 의사결정</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="lecture-slider">
+                    <div class="lecture-header">
+                      <p class="lc-title">디자인</p>
+                      <a href="#none" class="lc-shortcut">전체보기 ></a>
+                    </div>
+                    <div class="swiper lecture-carousel">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide slide">
+                          <div class="card__container">
+                            <img src="./src/images/wh-design.png" alt="" class="card__image">
+                            <div class="card__labels">전체오픈</div>
+                            <div class="card__title">실리콘밸리 세일즈포스 디자인 디렉터가 강의하는 글로벌 1위 Salesforce 디자인 디렉터 B2B SaaS 프로덕트
+                              디자인</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-design.png" alt="" class="card__image">
+                            <div class="card__labels">1차오픈</div>
+                            <div class="card__title">누구나 쉽게 배울 수 있는 타이포그래피 이론과 인디자인으로 실습하는 편집디자인 by 인디자인(Indesign)</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-design.png" alt="" class="card__image">
+                            <div class="card__labels">2차오픈</div>
+                            <div class="card__title">데이터가 두렵고 낯선 디자이너를 위한 데이터 기반의 논리적인 디자인 Data Driven UX 패키지</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-design.png" alt="" class="card__image">
+                            <div class="card__labels">3차오픈</div>
+                            <div class="card__title">클론디자인 프로젝트로 실제 앱/웹을 만들어보며 UX/UI 디자이너의 실무를 배우는 100개의 디자인으로 배우는 UX/UI
+                              패키지</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-design.png" alt="" class="card__image">
+                            <div class="card__labels">전체오픈</div>
+                            <div class="card__title">카카오페이 유저리서처가 직접 알려주는 성공적인 UX를 위한 유저 리서치 by 카카오페이 리서처 패키지</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-design.png" alt="" class="card__image">
+                            <div class="card__labels">3차오픈</div>
+                            <div class="card__title">현직 구글 프로덕트 디자이너와 함께 앱 디자인 프로젝트를 통해 논리적인 디자인을 만들기 위한 구글 Material
+                              Design 시스템을 활용한 Youtube Design</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-design.png" alt="" class="card__image">
+                            <div class="card__labels">2차오픈</div>
+                            <div class="card__title">서체 하나로 달라지는 디자인 퀄리티! 서체 디자이너들에게 직접 배우는 디자인의 차이를 만드는 서체 활용법</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-design.png" alt="" class="card__image">
+                            <div class="card__labels">1차오픈</div>
+                            <div class="card__title">각 분야에서 최고의 커리어를 자랑하는 국내외 디자이너들이 가장 최신의 케이스와 경험, 미래에 대한 인사이트를 공유하는
+                              UX Explorer UXUI Design Conference 2022</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="lecture-slider">
+                    <div class="lecture-header">
+                      <p class="lc-title">영상/3D</p>
+                      <a href="#none" class="lc-shortcut">전체보기 ></a>
+                    </div>
+                    <div class="swiper lecture-carousel">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide slide">
+                          <div class="card__container">
+                            <img src="./src/images/wh-video.png" alt="" class="card__image">
+                            <div class="card__labels">전체오픈</div>
+                            <div class="card__title">140만 채널 감독과 함께, 재미있게 배우는 프리미어 프로 & 애프터이펙트! 영상 편집 패키지</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-video.png" alt="" class="card__image">
+                            <div class="card__labels">1차오픈</div>
+                            <div class="card__title">국내 최대 규모 프로덕션의 실무진이
+                              그 동안 작업하며 쌓아온 경험과 노하우로 영상 완성의 3단계 : 편집, 색보정, CG효과</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-video.png" alt="" class="card__image">
+                            <div class="card__labels">2차오픈</div>
+                            <div class="card__title">Vectron을 통하여 복잡하고 추상적인 프랙탈 Artwork를 구현할 수 있는 옥테인으로 만드는 뉴디멘션:
+                              Vectron 프랙탈 아트웍</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-video.png" alt="" class="card__image">
+                            <div class="card__labels">3차오픈</div>
+                            <div class="card__title">3D 아티스트가 알려주는 게임 속
+                              리얼리티 캐릭터 모델링의 모든 것! 입문자도 가볍게 시작할 수 있는 Realistic Character 모델 제작으로 시작하는 게임 캐릭터 모델링</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-video.png" alt="" class="card__image">
+                            <div class="card__labels">전체오픈</div>
+                            <div class="card__title">탄탄한 Animatics에 기반한 Cinema4D 포트폴리오 퀀텀점프 C4D, 옥테인, 애프터이펙트 핵심 툴로 배우는
+                              모션그래픽 필수 클래스</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-video.png" alt="" class="card__image">
+                            <div class="card__labels">3차오픈</div>
+                            <div class="card__title">모션그래픽 뉴패러다임 닷밀 미디어아트 그래픽 클래스 C4D, 옥테인, 애프터이펙트 3툴과 7가지 플러그인으로 배우는
+                              모션그래픽 클래스</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-video.png" alt="" class="card__image">
+                            <div class="card__labels">2차오픈</div>
+                            <div class="card__title">실사 FX의 주요 시뮬레이션을 모두 담은 후디니 입문 강의 특수효과에 특화된 프로그램 후디니를 활용한 FX 아티스트
+                              김재민의 리얼리스틱 시뮬레이션 후디니 입문</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-video.png" alt="" class="card__image">
+                            <div class="card__labels">1차오픈</div>
+                            <div class="card__title">기초 모션부터 Trapcode, Plexus, Element 3D까지 전부 알려주는 애프터이펙트 플러그인을 활용한
+                              모션그래픽 아트워크</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="lecture-slider">
+                    <div class="lecture-header">
+                      <p class="lc-title">마케팅</p>
+                      <a href="#none" class="lc-shortcut">전체보기 ></a>
+                    </div>
+                    <div class="swiper lecture-carousel">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide slide">
+                          <div class="card__container">
+                            <img src="./src/images/wh-marketing.png" alt="" class="card__image">
+                            <div class="card__labels">전체오픈</div>
+                            <div class="card__title">페이지나 콘텐츠, 상품의 상위 노출되는 저예산 마케팅을 위한 검색 광고 최적화 - SEO/SEM 마스터</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-marketing.png" alt="" class="card__image">
+                            <div class="card__labels">1차오픈</div>
+                            <div class="card__title">성과 데이터를 제대로 읽고, 활용할 수 있는 성과 데이터를 활용한 퍼포먼스 마케팅 & 데이터 완전 정복</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-marketing.png" alt="" class="card__image">
+                            <div class="card__labels">2차오픈</div>
+                            <div class="card__title">새로 업데이트된 구글 애널리틱스4부터, 5가지 구글 마케팅 플랫폼을 이용한 GA4 탑재, 구글 애널리틱스 끝장내기 패키지
+                            </div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-marketing.png" alt="" class="card__image">
+                            <div class="card__labels">3차오픈</div>
+                            <div class="card__title">전환과 리텐션을 높여 매출에 직접적 영향을 주는 전환율을 높이는 디지털 마케팅 그로스편</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-marketing.png" alt="" class="card__image">
+                            <div class="card__labels">전체오픈</div>
+                            <div class="card__title">리서치 전문기업 오픈서베이의 실무자에게 배우는 리서치 프로세스로 배우는 무조건 팔리는 SNS콘텐츠</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-marketing.png" alt="" class="card__image">
+                            <div class="card__labels">3차오픈</div>
+                            <div class="card__title">팔로워들의 사랑을 받는 인스타를 성장시킨 30명의 성공방정식 완전 정복</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-marketing.png" alt="" class="card__image">
+                            <div class="card__labels">2차오픈</div>
+                            <div class="card__title">리서치 전문기업 오픈서베이의 실무자에게 배우는 오픈서베이와 함께하는 소비자 리서치와 보고서 작성</div>
+                          </div>
+                          <div class="card__container">
+                            <img src="./src/images/wh-marketing.png" alt="" class="card__image">
+                            <div class="card__labels">1차오픈</div>
+                            <div class="card__title">20년간 해외소싱 업무를 해온 자타공인 국내 최고 전문 강사님의 해외소싱으로 온라인 커머스 정복하기 패키지</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <div class="only-pc">
+        <div class="footer">
+
+          <!-- 공지사항 -->
+          <div class="notice footer__notice">
+            <div class="news notice-news">
+              <div class="news__container">
+
+                <div class="news__list--01 news__list">
+                  <em class="news__title">EDULAB</em>
+                  <p class="news__desc">EDULAB은 시작과 성공의 <br>최단거리를 만듭니다.</p>
+                </div>
+
+                <ul class="news__list--02 news__list">
+                  <li>
+                    <em class="news__title">공지사항</em>
+                  </li>
+                  <li>
+                    <a href="#none" title="수강생 취업 대비 온라인 강의 이벤트 게시물로 이동합니다." class="news__link">
+                      [이벤트] 수강생 취업 대비 강의 온라인 서비스 안내 관련하여 공지드립니다.</a>
+                  </li>
+                  <li>
+                    <a href="#none" title="공지 G.U.C기반 학습 게시물로 이동합니다." class="news__link">
+                      [공지] G.U.C기반 학습 서비스, 디지털 컨버전스를 통한 교육 서비스를 선보입니다.</a>
+                  </li>
+                </ul>
+
+                <ul class="news__list--03 news__list">
+                  <li>
+                    <em class="news__title">이용약관</em>
+                  </li>
+                  <li>
+                    <a href="#none" title="개인정보처리방침 페이지로 이동합니다." class="news__link">개인정보처리방침</a>
+                  </li>
+                  <li>
+                    <a href="#none" title="환불정책 페이지로 이동합니다." class="news__link">환불정책</a>
+                  </li>
+                </ul>
+
+                <div class="news__list--04 news__list">
+                  <em class="news__title">고객센터</em>
+                  <button type="button" class="news__button">문의하기</button>
+                  <p class="news__desc">오전 10시 - 오후 6시 (주말, 공휴일 제외)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 하단 고정 푸터 -->
+          <div class="company-info footer__company-info">
+            <!-- top 이동 버튼 -->
+            <div class="btn-top">
+              <a href="#" title="홈페이지 상단으로 이동합니다." class="btn-top__link">
+                <p class="btn-top__text">TOP</p>
+              </a>
+            </div>
+            <!-- 회사 정보 -->
+            <div class="company-info__container">
+              <div class="left-side">
+                <ul class="upper-info left-side__upper-info">
+                  <li>
+                    <a href="#none" title="개인정보처리방침 페이지로 이동합니다." class="upper-info__link">개인정보처리방침</a>
+                  </li>
+                  <li>
+                    <a href="#none" title="이용약관 페이지로 이동합니다." class="upper-info__link">이용약관</a>
+                  </li>
+                  <li>
+                    <a href="#none" title="이메일무단수집거부 페이지로 이동합니다." class="upper-info__link">이메일무단수집거부</a>
+                  </li>
+                  <li>
+                    <a href="#none" title="사이트맵 페이지로 이동합니다." class="upper-info__link">사이트맵</a>
+                  </li>
+                </ul>
+                <div class="below-info left-side__below-info">
+                  <div>
+                    <p class="below-info__text">(주) 에듀랩</p>
+                    <p class="below-info__text">대표이사 : 홍길동</p>
+                    <p class="below-info__text">개인정보책임관리자 : 김길동</p>
+                  </div>
+                  <div>
+                    <p class="below-info__text">사업자번호 : 123-12-12345</p>
+                    <p class="below-info__text">사무실 : 서울특별시 강남구 테헤란로</p>
+                    <p class="below-info__text">Copyright ⓒ ㈜에듀랩. All rights Reserved.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="right-side">
+                <select>
+                  <option>FAMILY SITE</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="only-mobile">
+        <div class="footer">
+          <div class="footer__notice">
+            <div class="footer__content">
+              <div class="footer__notice-title">공지사항</div>
+              <ul class="footer__notice-list">
+                <li class="footer__notice-item">
+                  <a href="" class="footer__notice-link">
+                    <div class="footer__notice-info">
+                      <div class="footer__notice-name">
+                        [당첨자발표] AI Explorer 2022 사전 설문지 이벤트 당첨 안내
+                      </div>
+                      <div class="footer__notice-date">2022.01.20</div>
+                    </div>
+                    <div class="footer__notice-arrow"></div>
+                  </a>
+                </li>
+                <li class="footer__notice-item">
+                  <a href="" class="footer__notice-link">
+                    <div class="footer__notice-info">
+                      <div class="footer__notice-name">
+                        [당첨자발표] AI Explorer 2022 사전 설문지 이벤트 당첨 안내
+                      </div>
+                      <div class="footer__notice-date">2022.01.20</div>
+                    </div>
+                    <div class="footer__notice-arrow"></div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__company-info">
+            <div class="footer__company-info-title">
+              <div class="logo">EDULAB</div>
+              <p>EDULAB은 시작과 성공의 최단거리를 만듭니다.</p>
+            </div>
+            <ul class="footer__company-info-list">
+              <li class="footer__company-info-list-item">(주)에듀랩</li>
+              <li class="footer__company-info-list-item">대표이사: 홍길동</li>
+              <li class="footer__company-info-list-item">개인정보책임관리자: 김길동</li>
+              <li class="footer__company-info-list-item">사업자번호: 123-12-12345</li>
+              <li class="footer__company-info-list-item">Copyright ⓒ ㈜에듀랩. All rights Reserved.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
