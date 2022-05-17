@@ -198,6 +198,7 @@ input::-webkit-search-results-decoration {
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
   -webkit-text-size-adjust: none;
 }
 
