@@ -82,30 +82,6 @@ $('.main-slider').slick({
   });
 }(jQuery));
 
-// pc 메인 슬라이더 페이징
-(function ($) {
-  "use strict";
-  $(function () {
-    $('.btn-prev').click(function (e) {
-      e.preventDefault();
-      var num = parseInt(stat, 10);
-      num--;
-      if (num <= 0) {
-        num = 1;
-      }
-    });
-    $('.btn-next').click(function (e) {
-      e.preventDefault();
-      var num = parseInt(stat, 10);
-      num++;
-
-      if (num > 5) {
-        num = 5;
-      }
-    });
-  });
-}(jQuery));
-
 // pc 벨트 배너 슬라이더
 (function ($) {
   "use strict";
